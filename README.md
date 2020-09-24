@@ -1,3 +1,72 @@
+
+# 源码分析
+
+## 文件结构
+
+``` bash
+/Users/liufang/openSource/FunnyLiu/node-fs-extra
+├── lib
+|  ├── copy
+|  |  ├── copy.js
+|  |  └── index.js
+|  ├── copy-sync
+|  |  ├── copy-sync.js
+|  |  └── index.js
+|  ├── empty
+|  |  ├── __tests__
+|  |  |  ├── empty-dir-sync.test.js
+|  |  |  └── empty-dir.test.js
+|  |  └── index.js
+|  ├── ensure
+|  |  ├── file.js
+|  |  ├── index.js
+|  |  ├── link.js
+|  |  ├── symlink-paths.js
+|  |  ├── symlink-type.js
+|  |  └── symlink.js
+|  ├── fs
+|  |  └── index.js
+|  ├── index.js
+|  ├── json
+|  |  ├── index.js
+|  |  ├── jsonfile.js
+|  |  ├── output-json-sync.js
+|  |  └── output-json.js
+|  ├── mkdirs
+|  |  ├── index.js
+|  |  └── make-dir.js
+|  ├── move
+|  |  ├── index.js
+|  |  └── move.js
+|  ├── move-sync
+|  |  ├── index.js
+|  |  └── move-sync.js
+|  ├── output
+|  |  └── index.js
+|  ├── path-exists
+|  |  └── index.js
+|  ├── remove
+|  |  ├── index.js
+|  |  └── rimraf.js
+|  └── util
+|     ├── stat.js
+|     └── utimes.js
+
+directory: 39 file: 154
+
+ignored: directory (1)
+
+```
+
+## 外部模块依赖
+
+![img](./outer.svg)
+
+## 内部模块依赖
+
+![img](./inner.svg)
+  
+
 Node.js: fs-extra
 =================
 
